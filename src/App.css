@@ -1,0 +1,66 @@
+body {
+  background-color: #D8E3E7;
+  color: #F5F5F5;
+}
+.navbar{
+  background-color: #132C33 !important;
+}
+.navbar-brand, .nav-link{
+  color: #F5F5F5 !important;
+}
+.nav-link{
+  text-decoration-line: underline;
+  text-decoration-color: #61dafb;
+  text-decoration-style: solid;
+}
+li {
+  color: #132C33;
+  font-size: 1.5em;
+}
+
+.list-contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list-contacts li {
+  list-style: none;
+  padding: 1em;
+}
+a:visited{
+  color: #132C33 ;
+}
+.accordion-button{
+  background-color:#132C33 !important;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
